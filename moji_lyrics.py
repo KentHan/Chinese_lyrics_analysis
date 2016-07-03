@@ -1,4 +1,4 @@
-# coding=utf-8
+# -*- coding: utf-8 -*-
 
 import scrapy
 from pymongo import MongoClient
@@ -9,7 +9,8 @@ class MojiLyricsSpider(scrapy.Spider):
     name = 'moji'
 
     # start_urls = ['https://mojim.com/twh105643.htm', 'https://mojim.com/twh100085.htm'] # 石頭 / 張宇
-    start_urls = ['https://mojim.com/twza.htm'] # 華語男生
+    # start_urls = ['https://mojim.com/twza.htm'] # 華語男生
+    start_urls = ['https://mojim.com/twzb.htm'] # 華語女生
     
     host = 'https://mojim.com'
     
